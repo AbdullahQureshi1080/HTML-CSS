@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center; 
+    
+}
+
+.logo {
+/*    height: 100px;*/
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo-black { 
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+.nav{
+    float: right;
+    list-style:none;
+    margin-top: 55px;
+    color: #B3B6B7;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 40px;
+    width: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #B3B6B7;
+}
+
+/*
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
+
+body{
+    background-color: #283747;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.background-image-text h1{
+    color: #B3B6B7;
+}
+
+h2{
+    color: #B3B6B7;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 300;
+    color: #B3B6B7;
+    text-decoration: none;
+}
+
+
+.div1 h1{
+/*    flex: auto;*/
+    color: #B3B6B7;
+}
+
+.div2{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
+.div2 h2{
+    margin-bottom: 30px;
+}
+
+.imgSv{
+    width: 450px;
+    height: 250px;
+    transition: width 5s, height 5s;
+}
+
+.imgSv:hover{
+    width: 600px;
+    height: 350px;
+}
+
+
+.div3{
+    margin-top: 30px;
+}
+
+.div3 h3,p,h4{
+    text-align: center;
+    color: #B3B6B7;
+}
+
+.footlogo{
+    width: 50px;
+    height: 50px;
+}
+
+.flextype{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flextype > a{
+    margin: 10px 10px 10px
+} 
+
+.regis{
+    text-align: center;
+    color: #B3B6B7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.regis label,input{
+    margin: 10px 10px 10px 10px;
+}
+
+.CeoImg{
+    width: 280px;
+    height: 310px;
+}
+
+.info{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.info p{
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 21px;
+} 
+
+/*
+@media only screen and (max-width:768px){
+    .col span-1-of-2{
+       display: 
+    }
+} */

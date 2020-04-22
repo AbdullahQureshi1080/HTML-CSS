@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <link rel = "stylesheet" type = "text/css" a href = "style.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <title>EVENTS&#38EVENTS</title>
+</head>
+    
+    
+    <body>
+        <div class = "div1">
+            
+                <div class = "row">
+                    <img src = "logo-white.png" alt = "Logo" class ="logo">
+                    <img src = "logo-black.png" alt = "Logo" class ="logo-black">
+                    <ul class= "nav">
+                        <b><a href = "#"><li>Home</li></a></b>
+                        <b><a href = "registerEvent.html"><li>RegisterEvent</li></a></b>
+                        <b><a href = "#"><li>About</li></a></b>
+                    </ul>
+                </div>
+        </div>
+        
+      <div class = "regis">
+            <form method = "post" action = "#" type = "GET" >
+                
+                    <label for = "name"><b>Name</b></label>
+                    <input type = "text" name = "name" value = "Enter name" id = "name"></input>
+                    <label for = "email">Email</label>
+                    <input type = "text" name = "email" value = "Enter email" id = "email">
+                    </input><br>
+                    <label for = "wed">Wedding</label>
+                    <input type = "radio" name = "wedding" value = "1" id = "wed"></input>
+                    <label for = "cat">Catering</label>
+                    <input type = "radio" name = "wedding" value = "1" id = "cat"></input>
+                   <br><br>
+                    <h1>Overview of the Event</h1>
+                   <textarea name="message" rows="6" cols="35"></textarea><br><br>
+                    <h3>Select Plan </h3>
+                   <div class = "flextype"> 
+                    <label for = "cb">Starter Plan</label><h2>20000&#36;</h2>
+                    <input type = "checkbox" name = "cbox" value = "ro" id = "cb"></input>
+                    <label for = "cb">Budget Plan</label><h2> 75000&#36;</h2>
+                    <input type = "checkbox" name = "cbox" value = "ro" id = "cb"></input>
+                    <label for = "cb">Premium Plan</label><h2> 150000&#36;</h2>
+                    <input type = "checkbox" name = "cbox" value = "ro" id = "cb"></input><br><br>  
+                    <label id = "l1">Other : </label>
+                        <input list="tlist">
+                       <datalist id="tlist">
+                        <option value="Millionaire-Package">
+                        <option value="Billionare-Package">
+                       </datalist><br><br>
+                    </div>
+                    <h1>Upload a Reference Plan or Design in Mind</h1><br><br>
+                    <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile"><br><br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit"><br><br>
+                    <p>Date/Time: <span id="datetime"></span></p>
+                  
+
+        </form>
+            </div>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+
+</html>
